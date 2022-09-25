@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop</title>
+
+    <style>
+        .w3-card-4
+        {
+            text-align: center;
+            background-color: #ffffff;      
+        }
+        
+        .w3-card-4 img
+        {
+            height: 300px;
+            width: auto;    
+        }
+
+        .column
+        {
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+
+        .itemHover :hover
+        {
+            opacity: 0.90;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        body, html {height: 100%;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+        .bgimg {
+  background-image: url('image/mackback.jpg');
+  opacity: 100%;
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.roll{
+    margin-top: 10px;
+ display: flex;
+ justify-content: center;
+}
+
+.buying{
+    position: relative;
+    right: 2%;
+}
+
+        @media screen and (max-width: 900px)
+        {
+            .column
+            {
+                width: 100%;
+                display: block;
+                margin: 0px;
+            }
+
+            
+
+            .w3-card-4 img
+            {
+                float: left; 
+                height: 125px;
+                width: auto;      
+            }
+            .roll{
+            display: flex;
+            flex-direction: row;
+            }
+            
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+    <div class="bgimg" >
+        <nav class="navbar" style="top: 20px;">
+            <div>
+              <h4 class="logo" style="font-weight: bolder;">
+                Gadget
+              </h4>
+            </div>
+              <ul class="nav-links">
+                <li>
+                  <a href="index.html">HOME</a>
+                </li>
+                <li>
+                  <a href="signin.html">SIGN IN</a>
+                </li>
+                <li>
+                  <a href="gadgets.html">GADGETS</a>
+                </li>
+                <li>
+                    <a href="ai.html">AI</a>
+                </li>    
+                <li>
+                  <a href="aboutus.html">ABOUT US</a>
+                </li>
+              </ul>
+          </nav>
+    </div>
+    <div class="w3-display-middle w3-wide w3-text-white">
+        <p class="w3-ripple w3-padding-large w3-round-xxlarge w3-ripple" style="font-size: 300%; border-radius: 55px; border: 3px solid white">Supreme Laptops</p>
+    </div>
+<!-- image grid 2*2 -->
+<div class="w3-white" style="height: 100%;">
+
+ <!--Copy start --> 
+ <div class="column">
+    <div class="itemHover">
+      <a href="#">
+         <div class=" w3-card-4 w3-padding-large" data-aos="fade-right" data-aos-duration="1000">
+            
+            <img src="image/rog3.webp" class="" >
+
+            <div class="">
+                <h3>Asus Rog Zephyrus</h3><br>
+                <span style="color: gray;">CPU-Ryzen 7<br>GPU-GTX 1660ti</span>
+                <br><br><span style="font-weight: bold;">Price-₹1,23,990</span>
+            </div>
+            
+            
+            <div class="w3-center w3-container roll" >
+                <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+            </div>
+            
+        </div>
+         
+      </a>
+    </div>
+</div>
+
+    <div class="column" >
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-left" data-aos-duration="1000">
+                    
+                    <img src="image/macbook.jpg" class="">
+
+                    <div class="">
+                        <h3>Mackbook Pro 2018</h3><br><span style="color: gray;">CPU-Intel i9<br>GPU-Intel Integrated</span><br><br>
+                        <span style="font-weight: bold;">Price-₹ 1,49,990</span>
+                    </div>
+                    
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="column" >
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-right" data-aos-duration="1000">
+                    
+                    <img src="image/prestige.webp" class="">
+
+                    <div class="">
+                        <h3>MSI Prestige</h3><br><span style="color: gray;">CPU-Intel i7<br>GPU-Intel Integrated</span><br><br>
+                        <span style="font-weight: bold;">Price-₹1,09,990</span>
+                    </div>
+                    
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="column" >
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-left" data-aos-duration="1000">
+                    
+                    <img src="image/dell.jpg" class="">
+
+                    <div class="">
+                        <h3>Dell M15 R3 Alienware</h3><br><span style="color: gray;">CPU-Intel i7<br>GPU-GTX 1660ti</span><br><br>
+                        <span style="font-weight: bold;">Price-₹2,09,999</span>
+                    </div>
+                    
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="column" >
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-right" data-aos-duration="1000">
+                    
+                    <img src="image/legion.jpg" class="">
+
+                    <div class="">
+                        <h3>Lenovo Legion</h3><br><span style="color: gray;">CPU-Intel i5<br>GPU-GTX 1650</span><br><br>
+                        <span style="font-weight: bold;">Price-₹70,990</span>
+                    </div>
+                    
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="column" >
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large"data-aos="fade-left" data-aos-duration="1000">
+                    
+                    <img src="image/hp.jpg" class="">
+
+                        <div class="">
+                            <h3>HP Pavilion</h3><br><span style="color: gray;">CPU-Intel i5<br>GPU-GTX 1650</span><br><br>
+                            <span style="font-weight: bold;">Price-₹71,800</span>
+                        </div>
+
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+     
+    <div class="column w3-cecnter" style="width: 100%;">
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-up" data-aos-duration="1000">
+                    
+                    <img src="image/msi ge66.jpg">
+
+                    <div class="">
+                        <h3>MSI GE66</h3><br><span style="color: gray;">CPU-Intel i7<br>GPU-RTX 2080<br></span> <br>
+                        <span style="font-weight: bold;">Price-₹3,09,990</span>
+                    </div>
+                    
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    
+    
+    </div>
+    <!-- copy end -->
+
+</div>
+         
+
+<!-- Grid End -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

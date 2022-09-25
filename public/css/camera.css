@@ -1,0 +1,379 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+
+ul{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Century Gothic';
+    width: 100%;
+}
+
+
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.nav-links a:hover{
+    color: white;
+    border-style: solid;
+    border-color:  rgb(183, 0, 255);
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*camera*/
+.topflex{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.flexlines{
+    height: 50%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+
+.flexlines h1{
+    font-size: 50px;
+}
+
+.flexlines h3{
+    position: relative;
+    top: 5%;
+}
+
+.flexlines button{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border: transparent;
+    position: relative;
+    top: 10%;
+    left: 1%;
+    background-color: rgb(183, 0, 255);
+}
+
+.flexlines a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    width: 180px;
+    height: 50px;
+}
+
+.flexlines a:hover{
+    border-bottom: solid white;
+}
+
+.topflex a img{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: white;
+    padding: 10px;
+}
+
+.icon{
+    position: relative;
+    bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+.icon a{
+
+    width: 150px;
+    padding: 10px;
+    align-self: flex-end;
+    margin-right: 3%;
+    text-align: center;
+    border: solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(183, 0, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.icon a:hover{
+    background-color: white;
+    border-radius: 30px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.camera-main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*background-color: rgb(207, 207, 207);*/
+    align-items: center;
+}
+
+.sony-alpha-banner{
+    height: 100%;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.sony-alpha-banner h1{
+    position: relative;
+    top: 5%;
+    left: 5%;
+    font-size: 80px;
+    font-weight: 900;
+}
+.sony-alpha-banner h4{
+    font-size: 40px;
+    align-self: center;
+    padding: 8px;
+    color: white;
+    border: solid black 6px;
+    position: relative;
+    top: 10px;
+}
+
+.sony-alpha-banner span{
+    font-size: 25px;
+     color: rgba(49, 49, 49, 0.801);
+    font-weight: lighter;
+}
+
+.sony-alpha-banner button{
+    height: 45px;
+    width: 130px;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    background-color: rgba(255, 60, 0, 0.493);
+    border-radius: 30px;
+    border: transparent;
+}
+.sony-alpha-banner a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+
+/*buying section*/
+.camera-buy-sec{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.camera-buy-sec h1{
+    padding: 10px;
+    border-bottom: solid black;
+}
+
+.camera-buy{
+    display: flex;
+    height: 250px;
+    width: 550px;
+    justify-content: space-evenly;
+}
+
+.camera-info{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+}
+
+.camera-buy img{
+    height: 150px;
+    position: relative;
+    top: 10%;
+}
+/*hovering*/
+.camera-buy:hover{
+    border-radius: 30px;
+    background-color: aliceblue;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+/*info*/
+.mlinfo{
+    height: 100%;
+    width: 100%;   
+    flex-wrap: wrap;
+}
+
+.caminfo{
+    display: flex;
+    height: 330px;
+    width: 100%;
+}
+
+.info{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.infoimg img{
+    height: 299px;
+}
+
+/*lens*/
+.lens-main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(212, 212, 212);
+}
+
+.lensbanner{
+    height: 100%;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}   
+
+.lensbanner button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: rgb(212, 212, 212);
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.lensbanner a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.lenslist{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lenslistinfo{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lens-buy{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 450px;
+}
+
+.lens-buy:hover{
+    background-color: white;
+    border-radius: 70px;
+    transition: 0.2s;
+    padding: 10px;
+}
+
+.lens-buy img{
+    align-self: center;
+    height: 250px;
+    width: auto;
+    margin: 0px;
+}
+
+.lens-img{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.lens-info{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lens-info p{
+    font-size: 13px;
+}

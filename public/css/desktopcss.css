@@ -1,0 +1,108 @@
+    .w3-card-4
+    {
+        text-align: center;
+        background-color: #ffffff;      
+    }
+
+    .w3-card-4 img
+    {
+        height: 300px;
+        width: auto;    
+    }
+
+    .column
+    {
+        float: left;
+        width: 50%;
+        padding: 15px;
+    }
+
+    .itemHover:hover
+    {
+        opacity: 0.90;
+    }
+
+    .column a
+        {
+        text-decoration: none;
+        }
+
+    body, html
+    {
+        height: 100%;
+        margin: 0;
+    }
+
+
+    body
+    {
+        margin: 0;
+        padding: 0;
+        background-color: white;   
+    }
+
+    .bgimg
+    {
+        opacity: 100%;
+        min-height: 100%;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .roll
+    {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buying
+    {
+        position: relative;
+        right: 2%;
+    }
+
+    .custom
+    {
+        border-radius: 65px;
+        border: 3px solid white;
+    }
+
+    #txtdesk:hover
+    {         
+        
+        transition: 0.2s;
+    }
+
+    @media screen and (max-width: 900px)
+    {
+        .column
+        {
+            width: 100%;
+            display: block;
+            margin: 0px;
+        }
+
+        .w3-card-4 img
+        {
+            float: left;
+            margin-top: 10%; 
+            height: 125px;
+            width: auto;      
+        }
+
+        .roll{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .buying{
+            position: relative;                
+        }
+    
+        .Desktop ui{
+            text-align: right;
+        }
+    
+    }

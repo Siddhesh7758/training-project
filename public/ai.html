@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Intelligence</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <style>
+
+body{
+     background-color: white;
+}
+h1 {
+    font-family: "Century Gothic";
+    color: white;
+}
+
+body, html {height: 100%;
+    margin: 0;
+}
+.bgimg {
+  background-image: url('image/ai/brain-circuit_crop.jpg');
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.93;
+}
+ a{
+    text-decoration: none;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mob-head{
+  font-size: 400%;
+  font-family: Century Gothic;
+}
+
+.mob-para{
+  font-size: 150%;
+  text-align: justify;
+}
+
+.hover-border{
+  border-radius: 55px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.hover-border:hover{
+  transition: 0.2s;
+  transform: scale(1.1);
+  text-decoration: none;
+border-radius: 55px;
+border: 3px solid white;
+}
+
+.w3-quarter{
+  display: flex;
+  height: 500px;
+}
+
+@media only screen and (max-width: 900px) {
+    .bgimg {
+      background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.93;
+}
+
+.mob-head{
+  font-size: 200%;
+  font-family: Century Gothic;
+}
+
+.mob-para{
+  font-size: 120%;
+  text-align: justify;
+}
+}
+
+    </style>
+</head>
+<body>
+  <script src="https://kit.fontawesome.com/8365d18431.js" crossorigin="anonymous"></script>
+
+<div class="bgimg">
+  <nav>
+    <div>
+      <h4 class="logo">
+        Gadget
+      </h4>
+    </div>
+      <ul class="nav-links" >
+        <li>
+          <a href="index.html" >HOME</a>
+        </li>
+        <li>
+          <a href="signin.html">SIGN IN</INp></a>
+        </li>
+        <li>
+          <a href="gadgets.html">GADGETS</a>
+        </li>
+        <li>
+          <a href="ai.html">AI</a>
+      </li>
+        <li>
+          <a href="aboutus.html">ABOUT US</a>
+        </li>
+      </ul>
+</nav>
+</div>
+
+<div class="mega">
+    <!--for large screens-->
+  <div class="w3-container w3-xlarge w3-animate-opacity w3-text-white">
+    <div class="w3-hide-small w3-hide-medium">
+        <div class="w3-display-left " style="margin-left: 5%;">
+            <h1 class="w3-animate-top" style="font-size: 250%;">AI for everyone</h2>
+        </div>
+
+        <div class="w3-display-right w3-center w3-text-white" style="margin-right: 8%;">
+            <p style=" margin-bottom: 20px;" class="hover-border">
+              <img src="image/ai/brain-icon.png">
+                    <a href="#AI">  What is AI ? </a>
+              <img>  
+            </p>
+            <br>
+            <p style=" margin-bottom: 20px;" class="hover-border">
+              <img src="image/ai/newspaper(1).png">
+                    <a href="#news">  Latest news</a>
+              </img>
+            </p>
+            <br>
+            <p style=" margin-bottom: 20px;" class="hover-border">
+              <img src="image/ai/notes.png">
+                    <a href="#example"> Examples of AI </a>
+            </img>
+            </p>
+        </div>
+
+    </div>
+  </div>
+  <!---->
+
+  <!--for small screens-->
+  <div class="w3-container w3-xlarge w3-animate-opacity w3-text-white w3-hide-large" >
+    <div class="">
+        <div class="w3-center w3-display-topmiddle w3-margin-top">
+            <h1 class="w3-animate-top" style="font-size: 200%; margin-top: 30%;">AI for everyone</h1>
+        </div>
+
+        <div class="w3-center w3-text-white w3-large w3-display-middle" style="text-decoration: none; font-size: 80%; margin-top: 20%;">
+            
+          
+            <p style=" margin-top: 50px;" class="hover-border" >
+              <img src="image/ai/facedetect.jpg">
+                    <a href="#AI">  What is AI ? </a>
+              <img>
+            </p>
+            <p style=" margin-top: 50px;" class="hover-border">
+              <img src="image/ai/newspaper(1).png">
+                <a href="#news">  Latest news</a>
+              </img>
+            </p>
+            <p style=" margin-top: 50px;" class="hover-border">
+              <img src="image/ai/notes.png">
+                <a href="#example"> Examples of AI </a>
+              </img>
+            </p>
+            
+            
+        </div>    
+    </div>
+  </div>
+  <!---->
+
+  <div id="AI" >
+    <div class=" w3-center w3-container" style="position: relative;">
+        <div style="margin-left:10px; margin-right:10px;">
+            <p class="mob-head" style="margin-top: 30px; margin-bottom: 30px;">What Is Artificial Intelligence?</p>
+            <img class="w3-image w3-center" src="image/ai/AI.png" max-height="auto" width="600px" >
+        </div>
+
+        <div class="w3-left mob-para" style="margin-top:20px; margin-left: 15%; margin-right: 15%;">
+            <p>
+                In the simplest terms, artificial intelligence (AI) refers to systems or machines that mimic human intelligence to perform tasks and can iteratively improve themselves based on the information they collect. AI manifests in a number of forms. A few examples are:
+            </p>
+            <p>
+                <ul>
+                    <li>Chatbots use AI to understand customer problems faster and provide more efficient answers</li>
+                    <li>Intelligent assistants use AI to parse critical information from large free-text datasets to improve scheduling</li>
+                    <li>Recommendation engines can provide automated recommendations for TV shows based on users’ viewing habits</li>
+                </ul>
+            </p>
+            <p>
+                AI is much more about the process and the capability for superpowered thinking and data analysis than it is about any particular format or function. Although AI brings up images of high-functioning, human-like robots taking over the world, AI isn’t intended to replace humans. It’s intended to significantly enhance human capabilities and contributions. That makes it a very valuable business asset.
+            </p>
+        </div>
+      </div>  
+  </div>
+    <!--cards-->
+    <div id="news" style="height: 100%;">
+      <div class="news" >
+          <p class="w3-center mob-head" style="margin-top: 10px;">Latest news</p>
+
+          <div class="row" style="margin-top: 30px; ">
+            <div class="w3-display">
+
+              <div class="w3-row w3-center" id="myGrid">
+        
+                <div class="w3-quarter"
+                >
+                    <div class="w3-card  w3-margin  w3-padding">
+                      <img src="image/ai/google_products.jpg" height="150px" width="auto"> 
+                          <h4>Introducing our new AI-powered hardware</h3>
+                          <p style="margin-bottom: 50px;">
+                            we think technology can be even more useful when computing is anywhere you need it, always avaible
+                            to help you. Your devices fade into the background, working together with AI and software to assist you throghout your day. We call this ambient computing.
+                          </p>
+                          <p class="w3-round-xlarge w3-blue w3-padding-small" >Learn more</p>
+                    </div>
+                </div>
+              
+                <div class="w3-quarter">
+                  <div class="w3-card w3-margin  w3-padding">
+                    <img src="image/ai/fd.png" height="150px" width="auto"> 
+                            <h4>People + AI Guidebook</h4>
+                            <p style="margin-bottom: 120px;">
+                              Tools, methods and best practices for designing AI products in human-centrated way
+                            </p>
+                            
+                            
+                            <p class="w3-round-xlarge w3-blue w3-padding-small" >Learn more</p>
+                    </div>
+                </div>
+              
+                <div class="w3-quarter">
+                  <div class="w3-card  w3-margin  w3-padding">
+                    <img src="image/ai/EQ.jpg" height="200px" width="auto">
+                          <h4>Forecasting earthquake aftershock locations with AI-assisted science</h4>
+                          <p style="margin-bottom: 20px;">
+                            Mechine learning-based forecasts may one day help deploy emergency services and inform evacuation plans for areas at risk of an aftershock</p>
+                          <p class="w3-round-xlarge w3-blue w3-padding-small" >Learn more</p>
+                  </div>
+                </div>
+        
+                <div class="w3-quarter">
+                  <div class="w3-card  w3-margin  w3-padding">
+                      <img src="image/ai/framework.jpg" height="200px" width="auto">
+                      <h4>A new framework for flexible and reproducible reinforcement learning research</h4>
+                      <p>We released a research framework for fast prototyping of reinforcement learning algorithms. Which we will empower researchers to explore new ideas</p>
+                      <p class="w3-round-xlarge w3-blue w3-padding-small" >Learn more</p>
+                    </div>
+                </div>
+        
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="example">
+      <p class="w3-center mob-head">Examples of AI</p>
+
+        <div class="w3-display">
+          <div class="w3-row w3-center" id="myGrid">
+
+            <div class="w3-third">
+                <div class="w3-card  w3-margin  w3-padding">
+                  <img src="image/ai/waste.gif" height="150px" width="auto">
+                  <h4 class="w3-center ">Recyclable Waste detection</h4>
+                </div>
+            </div>
+          
+            <div class="w3-third">
+              <div class="w3-card w3-margin  w3-padding">
+                <img src="image/ai/facedetect.jpg" height="150px" width="auto">
+                <h4 class=" w3-center ">Face detection</h4>               
+              </div>
+            </div>
+          
+            <div class="w3-third">
+              <div class="w3-card  w3-margin  w3-padding">
+                <img src="image/ai/hands free car.gif" height="150px" width="auto">
+                <h4 class="w3-center">Hands free car driving</h4>               
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div><!--mega end-->
+    
+
+</body>
+</html>

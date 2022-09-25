@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone</title>
+
+    <style>
+        .w3-card-4
+        {
+            text-align: center;
+            background-color: #ffffff;      
+        }
+        
+        .w3-card-4 img
+        {
+            height: 300px;
+            width: auto;    
+        }
+
+        .column
+        {
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+
+        .itemHover :hover
+        {
+            opacity: 0.90;
+        }
+
+        .column a{
+            text-decoration: none;
+        }
+
+
+        body, html {height: 100%;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+        .bgimg {
+  background-image: url('image/back3.jpg');
+  
+  opacity: 100%;
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.roll{
+    margin-top: 10px;
+ display: flex;
+ justify-content: center;
+}
+
+.buying{
+    position: relative;
+    right: 2%;
+}
+
+        @media screen and (max-width: 900px)
+        {
+            .column
+            {
+                width: 100%;
+                display: block;
+                margin: 0px;
+            }
+
+
+            .w3-card-4 img
+            {
+                float: left;
+                margin-top: 10%; 
+                height: 125px;
+                width: auto;      
+            }
+            .roll{
+            display: flex;
+            flex-direction: row;
+            }
+
+            .buying{
+                position: relative;
+                
+            }
+            
+
+            .mob-ui{
+                text-align: right;
+            }
+
+            
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+    <div class="bgimg">
+        <nav class="navbar" style="top: 10px;">
+            <div>
+              <h4 class="logo" style="font-weight: bolder;">
+                Gadget
+              </h4>
+            </div>
+              <ul class="nav-links">
+                <li>
+                  <a href="index.html">HOME</a>
+                </li>
+                <li>
+                  <a href="signin.html">SIGN IN</a>
+                </li>
+                <li>
+                  <a href="gadgets.html">GADGETS</a>
+                </li>
+                <li>
+                    <a href="ai.html">AI</a>
+                </li>
+                <li>
+                  <a href="aboutus.html">ABOUT US</a>
+                </li>
+              </ul>
+          </nav>
+    </div>
+
+    <div class="w3-display-middle w3-wide w3-text-white">
+        <p class="w3-ripple w3-padding-large w3-round-xxlarge w3-ripple" style="font-size: 300%; border-radius: 55px; border: 3px solid white">Supreme Phones</p>
+    </div>
+<!-- image grid 2*2 -->
+<div class="w3-white" style="height: 100%;">
+
+ <!--Copy start --> 
+ <div class="column">
+    <div class="itemHover">
+      <a href="#">
+         <div class="w3-card-4 w3-padding-large" data-aos="fade-right" data-aos-duration="1000">
+            
+            <img src="image/iphone11.jpg" class="" >
+
+            <div class="mob-ui">
+                <h3>Iphone 11 Pro Max</h3>
+                <br>
+                <p style="color: gray;">CPU-Apple A13 Bionic Hexa-core<br>GPU-Apple GPU<br>RAM-4GB<br>ROM-512GB</p>
+                <p style="font-weight: bold;">Price-₹1,31,900</p><br>
+            </div>
+            
+            
+            <div class="w3-center w3-container roll" >
+                <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+            </div>
+            
+        </div>
+         
+      </a>
+    </div>
+</div>
+
+    <div class="column" >
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-left" data-aos-duration="1000">
+                    
+                    <img src="image/SamsungGalaxyS20Ultra__1_.jfif" class="">
+
+                    <div class="mob-ui">
+                        <h3>Samsang GalaxyS20Ultra</h3>
+                        <br>
+                        <p style="color: gray;">CPU- Exynos 990 octa core<br>GPU- Mali-G77 MP11<br>RAM- 12GB<br>ROM- 128GB</p>
+                        <p style="font-weight: bold;">Price-₹97,500</p><br>
+                    </div>
+                    
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="column" >
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-right" data-aos-duration="1000">
+                    
+                    <img src="image/oneplus8Pro.jpg" class="">
+
+                    <div class="mob-ui">
+                        <h3>Oneplus 8Pro</h3><br>
+                        <p style="color: gray;">CPU-Qualcomm Snapdragon 865 Octa-core<br>GPU-Adreno 650<br>RAM-12GB <br>ROM-256GB</p>
+                        <p style="font-weight: bold;">Price-₹59,999</p><br>
+                    </div>
+                    
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="column" >
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-left" data-aos-duration="1000">
+                    
+                    <img src="image/shark.jfif" class="">
+
+                    <div class="mob-ui">
+
+                        <h3>Blackshark 3 Pro</h3><br>
+                        <p style="color: gray;">CPU-Qualcomm Snapdragon 865 Octa-core<br>GPU-Adreno 650 <br>RAM-12GB <br>ROM-256GB</p>
+                        <p style="font-weight: bold;">Price-₹79,990</p><br>
+                    </div>
+                    
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="column" >
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-right" data-aos-duration="1000">
+                    
+                    <img src="image/microin1.webp" class="">
+
+                    <div class="mob-ui">
+                        <h3>Micromax In Note 1</h3><br>
+                        <p style="color: gray;">CPU-MediaTek Helio G85 Octa-core<br>GPU-Mali G52 MC2<br>RAM-4GB <br>ROM-64GB</p>
+                        <p style="font-weight: bold;">Price-₹11,990</p><br>
+                    </div>
+                    
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="column" >
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-left" data-aos-duration="1000">
+                    
+                    <img src="image/zflip3.jpg" class="">
+
+                        <div class="mob-ui">
+                            <h3>Samsung Galaxy Z Flip</h3><br>
+                            <p style="color: gray;">CPU-Qualcomm Snapdragon 855+ octa core<br>GPU-Adreno 640<br>RAM-8GB <br>ROM-256GB</p>
+                            <p style="font-weight: bold;">Price-₹1,08,999</p><br>
+                        </div>
+
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+     
+    <div class="column w3-cecnter" style="width: 100%;">
+        <div class="itemHover">
+            <a href="#">
+                <div class="w3-card-4 w3-padding-large" data-aos="fade-up" data-aos-duration="1000">
+                    
+                    <img src="image/rog3.jpg">
+
+                    <div class="mob-ui">
+                        <h3>ASUS ROG Phone 3</h3><br>
+                        <p style="color: gray;">CPU-Qualcomm Snapdragon 865+ octa core<br>GPU-Adreno 640<br>RAM-12GB <br>ROM-256GB<br></p>
+                        <p style="font-weight: bold;">Price-₹84,999</p><br>
+                    </div>
+                    
+                    <div class="w3-center w3-container roll">
+                        <p class="w3-blue w3-padding w3-round cart-btn buying"><i class="material-icons">share</i></p>
+                        <p class="w3-blue w3-padding w3-round heart-btn"><span class="glyphicon glyphicon-heart"></span></p><br> 
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    
+    
+    </div>
+    <!-- copy end -->
+
+</div>
+         
+
+<!-- Grid End -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+</body>
+</html>
+
+

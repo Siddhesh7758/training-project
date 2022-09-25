@@ -1,0 +1,144 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes example {
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+
+.gadgets{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+   
+}
+
+.gadget-child-upper{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30%;
+    transition: 0.3s;
+    
+}
+
+.gadget-child-lower{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 30%;
+    transition: 0.3s;
+    
+}
+
+
+.gadget-child-upper img{
+    
+    height: 150px;
+    width: 200px;
+    position: relative;
+    left: 15%;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+
+.gadget-child-lower img{
+    
+    height: 150px;
+    width: 200px;
+    position: relative;
+    left: 15%;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+.gadget-child-upper span{
+    position: relative;
+    left: 33%;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.gadget-child-lower span{
+    position: relative;
+    left: 33%;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+
+
+#laptop{
+    
+    background-color: rgb(242, 242, 242);
+    right: 5%;
+}
+
+.gadget-child-lower:hover{
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+    color: white;
+}
+
+.gadget-child-upper:hover{
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+    color: white;
+}
+
+
+#phone{
+    background-color: rgb(242, 242, 242);
+}
+
+#phone span{
+    left: 25%;
+}
+
+
+#watch{
+    background-color: rgb(242, 242, 242);
+    left: 5%;
+}
+
+#watch span{
+    left: 20%;
+}
+#watch img{
+    height: 180px;
+    width: auto;
+    left: 20%;
+}
+
+
+
+#desktop{
+    background-color: rgb(242, 242, 242);
+    right: 2.5%;
+}
+
+
+
+#camera{
+    background-color: rgb(242, 242, 242);
+    left: 2.5%;
+}
+

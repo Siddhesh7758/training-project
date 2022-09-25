@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+}
+
+ul{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Century Gothic';
+    width: 100%;
+    position: relative;
+}
+
+
+
+.logo{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.nav-links a:hover{
+    border-color: black;
+    border: solid;
+    padding: 10px;
+}
+
+
+
+
+
+
+/*smart watch*/
+.main-upper{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    text-align: left;
+}
+
+
+.til{
+    position: absolute;
+    bottom: 50%;
+    left: 16px;
+}
+
+.info{
+    position: absolute;
+    bottom: 40%;
+    left: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+#app{
+    background-color: black;
+}
+
+.appleflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 30%;
+}
+.appleflex img{
+    height: 60px;
+    width: 50px;
+}
+
+.apple{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.apple button{
+    background-color: rgb(255, 0, 55);
+    border-radius: 10px;
+    border-color: rgb(255, 0, 55);
+    width: 100px;
+    height: 30px;
+}
+
+.apple button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.descrp{
+    font-size: 15px;
+    color: grey;
+    align-self: center;
+}
+/*samsung*/
+#sam{
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+
+.samsungflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 6%;
+}
+
+.samsungflex img{
+    height: 300px;    
+}
+
+.samsungfleximage{
+    display: flex;
+}
+
+/*fitbit*/
+#fit{
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.404);
+}
+
+.fitflex{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fitfleximage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watch-buy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 350px;
+    transition: 0.15s;
+    position: relative;
+    top: 6%;
+    padding: 10px;
+
+}
+
+.watch-buy:hover{
+    border-color: rgba(0, 0, 0, 0.637);
+    border-style: solid;
+    border-radius: 100px;
+    padding: 20px;
+    background-color: rgba(243, 243, 243, 0.411);
+}
+
+.buy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+
+}
+
+.linkis a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.linkis a:hover{
+    color: white;
+    border-bottom-color: red;
+    border-bottom-style: solid;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.linkis{
+    position: relative;
+    text-align: center;
+    top: 70%;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,52 @@
+body{
+	margin	:0px;
+	padding: 0px;
+	font-family: century gothic;
+	
+}
+
+.row1{
+	width:100%;
+	display:flex;
+}
+
+.row2{
+	width:100%;
+	display:flex;
+}
+
+.lapy1{
+	margin: 10px;
+	flex: 1;
+	border: 2px solid black;
+}
+
+.lapy2{
+	flex:1;
+	margin:10px;
+	border: 2px solid black;
+	
+}
+
+.lapy3{
+	flex:2;
+	margin:10px;
+	border: 2px solid black;
+}
+
+.lapy4{
+	flex:2;
+	margin:10px;
+	border: 2px solid black;
+}	
+.row3{
+	width:100%;
+	display:flex;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.lapy5{
+	flex:3;
+	margin:10px;
+	border: 2px solid black;
+}	

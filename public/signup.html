@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+    body, html {height: 100%;
+    margin: 0;
+}
+    button{
+    border: none;
+    background-color: #f5b942;
+    border-radius: 55px;
+    color: white;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+button:hover{
+    background-color: #3bdb66;
+    border: none;
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color:  #f5b942;
+}
+a:hover{
+    color: #3bdb66;
+}
+
+.nav-links a:hover{
+    border-color: #f5b942;
+    color: black;
+}
+.log1{
+    margin-top: 30px;
+}
+ .log1 img{
+    height:150px;
+    width:auto;
+ }
+@media only screen and (max-width: 900px) {
+   .log1{
+       width: 100% !important;
+       height: 100%;
+   } 
+   
+   .w3-card-4{
+    box-shadow: 0px 0px;
+   }
+}
+
+</style>
+</head>
+<body>
+    <nav class="navbar w3-hide-small w3-hide-medium" style="top: 10px;">
+        <div>
+        <h4 class="logo" style="font-weight: bolder;">
+            Gadget
+        </h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+            <a href="index.html">HOME  </a>
+            </li>
+            <li>
+            <a href="signup.html">SIGN UP  </a>
+            </li>
+            <li>
+            <a href="gadgets.html">GADGETS  </a>
+            </li>
+            <li>
+                <a href="ai.html">AI</a>
+            </li>
+            <li>
+            <a href="aboutus.html">ABOUT US</a>
+            </li>
+        </ul>
+    </nav>
+    
+        <div class="w3-card-4 w3-white w3-center w3-display-middle log1"  style="width: 30%;">
+            <img src="image/user1.png"  class="w3-padding-large"> 
+
+                <form class="w3-container w3-padding-large">
+
+                    <i class="material-icons w3-left">text_fields</i>
+
+                    <p class="w3-left" style="margin-left: 10px;"><i class="fas fa-text"></i>NAME</p>
+                    <input class="w3-input" type="text">
+                    <br>
+                    
+                    <i class="material-icons w3-left">email</i>
+
+                    <p class="w3-left" style="margin-left: 10px;">EMAIL</p>
+                    <input class="w3-input" type="email">
+                    <br>
+
+                    <i class="material-icons w3-left">vpn_key</i>
+
+                    <p class="w3-left" style="margin-left: 10px;">SET PASSWORD</p>
+                    <input class="w3-input" type="password">
+                    <br>
+                    <i class="material-icons w3-left">vpn_key</i>
+
+                    <p class="w3-left" style="margin-left: 10px;">RETYPE PASSWORD</p>
+                    <input class="w3-input" type="password">
+                    <br>
+                    <button class="w3-margin" style="width: 30%;">Submit</button>
+                    <p class="w3-margin"><a href="index.html">Home</a></p>
+            </form>
+        </div> 
+
+</body>
+</html>

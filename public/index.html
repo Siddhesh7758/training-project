@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+    body, html {height: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:  #f5b942;
+}
+a:hover{
+    color:  #3bdb66;
+}
+
+button{
+    border: none;
+    background-color: #f5b942;
+    border-radius: 55px;
+    color: white;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+button:hover{
+    background-color:  #3bdb66;
+    border: none;
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+}
+
+.bgimg {
+    background-image: url('image/poly.jpg');
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.mid-head p{
+    font-size: 400%;
+    border: 3px solid  #f5b942;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mid-head p:hover{
+transform: scale(1.1);
+}
+
+.nav-links a:hover{
+    border-color: #f5b942;
+    color: black;
+}
+
+.log{
+width: 20%;
+margin-right: 5%;
+
+}
+.log img{
+    height:150px;
+    width:auto;
+}
+.social{
+    color: #5c5c5c;
+}
+.news p{
+    font-size: 110%;
+    text-align: justify;
+}
+
+.news h2{
+    font-size: 30px;
+}
+
+.lineheight{
+  line-height: 30px;
+}
+
+
+@media only screen and (max-width: 900px) {
+   .mid-head .w3-display-left{
+        margin-left: 0%;
+        font-size: 100%;
+   }
+   
+}
+  </style>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/8365d18431.js" crossorigin="anonymous"></script>
+
+    <div class="bgimg">
+        <nav class="navbar" style="top: 10px;">
+            <div>
+            <h4 class="logo" style="font-weight: bolder;">
+                <a  href="index.html" style="text-decoration: none; color: black;">Gadget</a>
+            </h4>
+            </div>
+            <ul class="nav-links">
+                <li>
+                <a href="signin.html" class="w3-hide-large">SIGN IN</a>
+                </li>
+                <li>
+                <a href="#">HOME  </a>
+                </li>
+                <li>
+                <a href="gadgets.html">GADGETS  </a>
+                </li>
+                <li>
+                  <a href="ai.html">AI</a>
+                </li>
+                <li>
+                <a href="aboutus.html">ABOUT US</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    
+        <div class="w3-container mid-head">
+            
+                <div class="w3-display-left" style="margin-left: 10%;">
+                    <p>Gadget 360</p>
+                </div>
+            
+        </div>
+
+   
+        <div class="w3-card-4 w3-white w3-center w3-display-right w3-hide-small log">
+            <img src="image/user1.png" class="w3-padding-large">
+                
+            <form class="w3-container w3-padding-large">
+
+            <i class="material-icons w3-left">email</i>
+
+            <p class="w3-left" style="margin-left: 10px;">EMAIL</p>
+            <input class="w3-input" type="email">
+            <br>
+
+            
+            <i class="material-icons w3-left">vpn_key</i>
+            <p class="w3-left" style="margin-left: 10px;">PASSWORD</p>
+            <input class="w3-input" type="password">
+            <br>
+            
+            <button class="w3-margin" style="width: 50%;">Login</button>
+                <p class="w3-margin">Didn't have account ?<a href="signup.html"> sign up</a></p>
+            </form>
+        </div> 
+
+        <div class="social">
+            <div class="w3-display-bottomleft w3-large" style="padding:24px 30px">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+              </div>
+        </div>
+
+        <p class="w3-left" data-aos="fade-right" data-aos-duration="1000" style="margin-left: 5%; margin-top: 20px ;color: gray; font-size: 170%; border-bottom: solid gray;"> Gadgets</p>
+        <div class="gadgets"  data-aos="fade-down" data-aos-duration="1000" >
+            <div class="gadget-child-upper" id="laptop">
+              <a href="laptop.html">
+                <img src="png/laptop4.png" alt="" style="height: 150px;" >
+              </a>
+              <span>Laptop</span>
+            </div>
+            <div class="gadget-child-upper" id="phone">
+              <a href="phone.html">
+                <img src="png/fold.png" alt="" style="position: relative; left: 15%;">
+              </a>
+              <span>Smartphones</span>
+            </div>
+            <div class="gadget-child-upper" id="watch">
+              <a href="smartwatch.html">
+                <img src="png/applewatch.png" alt="" >
+              </a>
+              <span>Smartwatches</span>
+            </div>
+        </div>
+        <div class="gadgets" style="position: relative; top: 0px; margin-bottom: 5%;" data-aos="fade-up" data-aos-duration="1000">
+          <div class="gadget-child-lower" id="desktop" >
+            <a href="desktop.html">
+              <img src="png/surfacestudio.png" alt="">
+            </a>
+            <span>Desktops</span>
+          </div>
+          <div class="gadget-child-lower" id="camera">
+            <a href="camera.html">
+              <img src="png/dslr.png" alt="" style="height: 150px; width: 150px; position: relative; left: 25%;">
+            </a>
+            <span>Camera</span>
+          </div>
+        </div>
+
+        <div class="news w3-row w3-center w3-padding" style="height:100%" data-aos="fade-right" data-aos-duration="1000">
+            <p class="w3-left" style="margin-left: 5%; margin-bottom: 30px; color: gray; font-size: 170%; border-bottom: solid gray;"> Latest News</p>
+            <div class="">
+                <div class="w3-panel  w3-margin  w3-padding ">
+                    
+                  <img src="image/news/console.jpg" class="w3-left" height="250px" width="auto">
+                  <div class="content w3-center" style="margin-left: 30%;">
+                    
+                    <h2>Xbox Series X, Series S Launching in India Tomorrow: Can Microsoft Trump the Sony PS5?</h2>
+                    
+                    <p class="lineheight">The gaming console war is heating up, with the new generation of both Xbox and PlayStation arriving for customers' this week. 
+                        The Xbox Series S and Series X will hit the shelves tomorrow, while the PlayStation 5 will be available starting November 12 in 
+                        some areas and November 19 in others. The Xbox Series X and Series S both will be launched in India alongside the rest 
+                        of the world, while the PlayStation 5 consoles will come to India on the later launch date on November 19. The Xbox Series X 
+                        comes with an octa-core processor, along with a 1TB total NVMe SSD. The Xbox Series S, on the other hand, also comes with an octa-core 
+                        processor, along with 512GB of NVMe SSD storage.</p>
+                </div>
+                </div>
+            </div>
+          
+            <div class="">
+              <div class="w3-panel w3-margin  w3-padding" data-aos="fade-left" data-aos-duration="1000">
+                <img src="image/news/micromax.jpg"class="w3-right" height="250px" width="auto">
+                <div class="content w3-center " style="margin-right: 30%;">
+                    <h2>Micromax IN Note 1, IN 1B now available for pre-orders on Flipkart</h2>
+                      <p class="lineheight">Micromax IN Note 1 and IN 1B pre-orders are now live on Flipkart and Micromax online store. 
+                        The two smartphones from the Indian smartphone brand come at a time when anti-China sentiments are ripe, 
+                        which Micromax believes will catapult the sales. The IN Note 1 and IN 1B come with specifications on par with its rivals, 
+                        including Redmi and Realme smartphones. The latest phones from Micromax come with MediaTek processors, multi-cameras, 
+                        and huge 5000mAh batteries inside that are common in their price segments.
+
+                        Earlier this month, Micromax made a comeback into India's smartphone market. 
+                        The preparations for its re-entry began early when Micromax co-founder Rahul Sharma posted a video 
+                        featuring himself to talk about the brand's re-emergence that is coming at a time to give customers a 
+                        desi alternative to Chinese smartphones. This is also why the sub-brand is called IN, which is an abbreviation for India.
+                    </p>
+                </div>               
+              </div>
+            </div>
+          
+            <div class="">
+              <div class="w3-panel  w3-margin  w3-padding" data-aos="fade-right" data-aos-duration="1000">
+                <img src="image/news/tesla.jpg" class="w3-left" height="250px" width="auto">
+                <div class="content w3-center " style="margin-left: 30%;">
+                    <h2>Tesla Invited by Maharashtra After Elon Musk Hints Entry Into India</h2>
+                    <p class="lineheight">India's richest state Maharashtra has invited US electric-car maker Tesla, weeks after its Chief 
+                        Executive Officer Elon Musk suggested entering the country next year.
+
+                        In a tweet on Thursday, state tourism and environment minister 
+                        Aaditya Thackeray said he and industries minister Subhash Desai held a video call with Tesla executives 
+                        earlier in the day to invite them to the state.
+                    </p>
+                </div>               
+              </div>
+            </div>
+          </div>
+
+          <script>
+            AOS.init();
+          </script>
+</body>
+</html>
